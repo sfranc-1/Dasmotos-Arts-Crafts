@@ -1,0 +1,169 @@
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #78a1a5; /*should i change it to white?*/
+    width: 100%;
+    height: 180px;
+    display: block;
+    font-family: raleway, sans-serif;
+}
+
+ul {
+    width: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+li {
+    height: 60px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+}
+
+.head-container {
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*1qjg6p9*_ga*MTgzMzE4MTg0My4xNjcyNzAwMDYw*_ga_3LRZM6TM9L*MTY3NzkzOTM5My45OC4xLjE2Nzc5Mzk1NjUuMzMuMC4w);
+    background-position: cover;
+    width: 100%;
+    height: 1000px;
+    /* margin-top: 0; */
+}
+
+.head-container h1 {
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 290px;
+    border: solid khaki 2px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+.item {
+    width: 100%;
+    margin: 75px 15px;
+}
+
+h3 {
+    
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+p {
+    margin-left: 25px;
+    width: 40%;
+    font-size: 19px;
+}
+
+#brushes {
+    background: url(https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg?_gl=1*1qjg6p9*_ga*MTgzMzE4MTg0My4xNjcyNzAwMDYw*_ga_3LRZM6TM9L*MTY3NzkzOTM5My45OC4xLjE2Nzc5Mzk1NjUuMzMuMC4w);
+    background-position: cover;
+    width: 250px;
+    height: 200px;
+}
+
+#brushes h2{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: mediumspringgreen;
+    width: 65%;
+    opacity: 0.90;
+    text-align: center;
+    margin-left: 87.5px;
+    padding-top: 40px;
+    padding-bottom: 30px;    
+    text-transform: uppercase;
+}
+
+#frames {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/frames.jpeg?_gl=1*1qjg6p9*_ga*MTgzMzE4MTg0My4xNjcyNzAwMDYw*_ga_3LRZM6TM9L*MTY3NzkzOTM5My45OC4xLjE2Nzc5Mzk1NjUuMzMuMC4w);
+    background-position: cover;
+    width: 250px;
+    height: 200px;
+}
+
+#frames h2{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: lightcoral;
+    width: 65%;
+    opacity: 0.90;
+    text-align: center;
+    margin-left: 87.5px;
+    padding-top: 40px;
+    padding-bottom: 30px;    
+    text-transform: uppercase;
+}
+
+#paint {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/finnish.jpeg?_gl=1*1qjg6p9*_ga*MTgzMzE4MTg0My4xNjcyNzAwMDYw*_ga_3LRZM6TM9L*MTY3NzkzOTM5My45OC4xLjE2Nzc5Mzk1NjUuMzMuMC4w);
+    width: 250px;
+    height: 200px;
+}
+
+#paint h2{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: skyblue;
+    width: 65%;
+    opacity: 0.90;
+    text-align: center;
+    margin-left: 87.5px;
+    padding-top: 40px;
+    padding-bottom: 30px;    
+    text-transform: uppercase;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 2px rgb(148, 119, 75);
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*c9xbe5*_ga*MTgzMzE4MTg0My4xNjcyNzAwMDYw*_ga_3LRZM6TM9L*MTY3ODA1Mzk1NS4xMDIuMS4xNjc4MDUzOTc5LjM2LjAuMA..);
+    background-position: right;
+}
+
+button {
+    width: 35PX;
+    height: 30px;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    background-color: #76a7bd;
+    font-weight: 800;
+    border-radius: 6px;
+}
+
+#footer {
+    width: 100%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
